@@ -1,0 +1,8 @@
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 92px 148px;
+  /* переопределить*/
+
+}
