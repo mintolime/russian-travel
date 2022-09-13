@@ -3,6 +3,7 @@
   grid-template-columns: repeat(4, 284px);/*необходимо сделать адаптивным*/
   grid-template-rows: repeat(3, 213px);
   gap: 16px;
+  justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;

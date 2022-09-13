@@ -1,0 +1,14 @@
+.place_content {
+  grid-area: paragraph;
+}
+
+.place {
+  display: grid;
+  grid-template-columns: repeat 460px 484px;
+  grid-template-rows: 152px 460px;
+  grid-gap: 50px 40px;
+  grid-template-areas:
+    "title website"
+    "image  paragraph";
+
+}
