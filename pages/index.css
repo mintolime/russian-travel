@@ -1,0 +1,57 @@
+@import url(../vendor/normalize.css);
+@import url(../fonts/fonts.css);
+@import url(../styles/blocks/page/page.css);
+/*HEADER*/
+@import url(../styles/blocks/header/header.css);
+@import url(../styles/blocks/header/__logo/header__logo.css);
+@import url(../styles/blocks/header/__link/header__link.css);
+@import url(../styles/blocks/header/__lang-link/header__lang-link.css);
+
+/*LEAD*/
+@import url(../styles/blocks/lead/lead.css);
+@import url(../styles/blocks/lead/__title/lead__title.css);
+@import url(../styles/blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../styles/blocks/lead/__image/lead__image.css);
+@import url(../styles/blocks/lead/_caption/lead__caption.css);
+
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 92px 0;
+
+}
+
+.intro__title {
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  margin: 0;
+  padding-bottom: 40px;
+  max-width: 690px;
+}
+
+.intro__text {
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  padding-bottom: 33px;
+  max-width: 690px;
+}
+
+.intro__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.intro__list-item {
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 18px;
+}

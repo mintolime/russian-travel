@@ -1,0 +1,13 @@
+.header__lang-link {
+  color: #fff;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.link_active_header {
+  text-decoration: underline;
+  color: #fff;
+}
