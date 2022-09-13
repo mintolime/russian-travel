@@ -13,29 +13,73 @@
 @import url(../styles/blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../styles/blocks/lead/__image/lead__image.css);
 @import url(../styles/blocks/lead/_caption/lead__caption.css);
-
 /*INTRO*/
 @import url(../styles/blocks/intro/intro.css);
 @import url(../styles/blocks/intro/__title/intro__title.css);
 @import url(../styles/blocks/intro/__text/intro__text.css);
 @import url(../styles/blocks/intro/__list/intro__list.css);
+/*PHOTO*/
+@import url(../styles/blocks/photo/photo.css);
+@import url(../styles/blocks/photo/__grid/photo__grid.css);
+@import url(../styles/blocks/photo/__image/photo__image.css);
 
-.photo {
-  padding-bottom: 92px;
-  box-sizing: border-box;
+.places {
+
 }
 
-.photo__grid {
-  display: grid;
-  grid-template-columns: repeat(4, 284px);
-  grid-template-rows: repeat(3, 213px);
-  gap: 16px;
-  list-style: none;
+.place_content{
+  max-width: 485px;
+
+}
+
+.place{
+
+}
+
+.place__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
   margin: 0;
-  padding: 0;
 }
 
+.place__image {
+  width: 460px;
+  height: 460px;
+}
 
-.photo__image {
-  width: 100%;
+.place__website {
+  max-width: 456px;
+  margin: 0;
+}
+
+.place__url-heading {
+  color: #aaa;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  /* identical to box height, or 100% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.place__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height, or 122% */
+  text-decoration-line: underline;
+  color: #fff;
+}
+
+.place__paragraph {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  margin: 0;
 }
