@@ -1,0 +1,7 @@
+.footer__item {
+  display: flex;
+  column-gap: 18px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}

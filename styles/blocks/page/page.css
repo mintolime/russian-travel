@@ -1,7 +1,8 @@
 .page {
   max-width: 1279px;
-  margin: 0 auto;
+  margin:auto;
   background-color: #2A2C2F;
   color: #fff;
   font-family: "Inter", sans-serif;
+  text-rendering: optimizeLegibility;
 }

@@ -1,0 +1,26 @@
+.cover {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../../images/cover-trains.jpg);
+  box-sizing: border-box;
+  position: relative;
+  margin: 92px auto;
+  max-width: 1184px;
+  min-height: 740px;
+}
+
+.cover::before {
+  z-index: -1;
+  position: absolute;
+  background: #2A2C2F;
+  opacity: 0.3;
+  /*для затемнения фона*/
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
