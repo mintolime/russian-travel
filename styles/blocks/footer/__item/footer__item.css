@@ -5,3 +5,11 @@
   padding: 0;
   margin: 0;
 }
+@media screen and (min-width: 319px) and (max-width: 424px) {
+
+.footer__item {
+  flex-direction: column;
+  row-gap: 32px;
+ }
+
+}

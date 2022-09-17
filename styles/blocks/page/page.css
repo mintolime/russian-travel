@@ -1,5 +1,5 @@
 .page {
-   max-width: 1280px;
+  max-width: 1280px;
   font-family: "Inter", sans-serif;
   text-rendering: optimizeLegibility;
   margin: 0 auto;
@@ -8,79 +8,15 @@
   background-color: #2A2C2F;
   color: #fff;
 }
-/*общие отступы для всего блока*/
-/* @media screen and (max-width: 1023px) {
-
-  .page {
-    max-width: 928px;
-  }
-
-} */
-
-
 
 @media screen and (max-width: 767px) {
   .page {
-    /* max-width: 720px; */
-    padding:28px 24px 24px;
+    padding: 28px 24px 24px;
   }
 }
 
-
-
 @media screen and (min-width: 319px) and (max-width: 424px) {
-
   .page {
-    /* max-width: 288px; */
     padding: 16px 16px 24px;
   }
-
 }
-/* @media screen and (max-width: 1279px) {
-
-  .page {
-margin: 0 auto;
-    background-color: #545960;
-
-  }
-
-}
-
-
-
-@media screen and (max-width: 1023px) {
-
-  .page {
-margin: 0 auto;
-    background-color: #6e7e95;
-
-
-  }
-
-
-
-}
-
-
-
-@media screen and (max-width: 767px) {
-
-  .page {
-    background-color: #8897ad;
-margin: 0 auto;
-  }
-
-}
-
-
-
-@media screen and (min-width: 319px) and (max-width: 424px) {
-
-  .page {
-    background-color: #c9d2de;
-margin: 0 auto;
-  }
-
-} */
-
-

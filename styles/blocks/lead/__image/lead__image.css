@@ -4,18 +4,17 @@
   object-fit: cover;
 }
 
-/* @media screen and (max-width: 1279px) {
+ /* @media screen and (max-width: 1279px) {
 
   .lead__image {
-    width: 984px;
-    height: 615px;
+
   }
 
-}
+} */
 
 
 
-@media screen and (max-width: 1023px) {
+/* @media screen and (max-width: 1023px) {
 
   .lead__image {
     width: 928px;
@@ -23,14 +22,12 @@
   }
 
 }
-
+ */
 
 
 @media screen and (max-width: 767px) {
-
   .lead__image {
-    width: 768px;
-    height: 480px;
+  transform: scaleX(1.1);
   }
 
 }
@@ -40,8 +37,7 @@
 @media screen and (min-width: 319px) and (max-width: 424px) {
 
   .lead__image {
-    width: 320px;
-    height: 200px;
+    transform: scaleX(1.1);
   }
 
-} */
+}
