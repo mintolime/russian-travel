@@ -8,7 +8,7 @@
   background-image: url(../../../images/cover-trains.jpg);
   box-sizing: border-box;
   position: relative;
-  margin: 92px auto;
+  /* margin: 92px auto; */
   max-width: 1184px;
   min-height: 740px;
 }

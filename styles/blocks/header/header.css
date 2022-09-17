@@ -1,7 +1,25 @@
-.header{
+.header {
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding:30px 50px 55px 50px;
+  padding-bottom:56px;
   box-sizing: border-box;
+}
+
+@media screen and (max-width: 1023px) {
+  .header {
+    padding-bottom:48px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    padding-bottom:32px;
+  }
+}
+
+@media screen and (min-width: 319px) and (max-width: 424px) {
+  .header {
+    padding-bottom:48px;
+  }
 }

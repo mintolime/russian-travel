@@ -1,4 +1,36 @@
 .photo {
-  padding-bottom: 92px;
-  box-sizing: border-box;
+  /* padding: 0 48px; */
+  /* padding-bottom: 92px; */
+  /* box-sizing: border-box; */
+  /* width: 100%; */
 }
+
+/* @media screen and (max-width: 1023px) {
+
+  .photo {
+    max-width: 928px;
+  }
+
+}
+
+
+
+@media screen and (max-width: 767px) {
+
+  .photo {
+    max-width: 720px;
+    /* padding: 0 24px; */
+  }
+
+}
+
+
+
+@media screen and (min-width: 319px) and (max-width: 424px) {
+
+  .photo {
+    max-width: 288px;
+    /* padding: 0 16px; */
+  }
+
+} */

@@ -2,7 +2,38 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 92px 148px;
+   padding: 92px 100px;
+  /* box-sizing: border-box; */
+  /* max-width: 690px; */
   /* переопределить*/
 
 }
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    /* max-width: 690px; */
+    padding:92px 0;
+  }
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .intro {
+    /* max-width: 720px; */
+    padding: 88px 24px;
+  }
+}
+
+
+
+@media screen and (min-width: 319px) and (max-width: 424px) {
+
+  .intro {
+    /* max-width: 288px; */
+    padding: 64px 16px;
+  }
+
+}
+
+

@@ -6,12 +6,12 @@
 @import url(../styles/blocks/header/__logo/header__logo.css);
 @import url(../styles/blocks/header/__link/header__link.css);
 @import url(../styles/blocks/header/__lang-link/header__lang-link.css);
-
 /*LEAD*/
 @import url(../styles/blocks/lead/lead.css);
 @import url(../styles/blocks/lead/__title/lead__title.css);
 @import url(../styles/blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../styles/blocks/lead/__image/lead__image.css);
+@import url(../styles/blocks/lead/__item/lead__item.css);
 @import url(../styles/blocks/lead/_caption/lead__caption.css);
 /*INTRO*/
 @import url(../styles/blocks/intro/intro.css);

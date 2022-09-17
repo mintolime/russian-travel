@@ -6,3 +6,13 @@
   padding-bottom: 40px;
   max-width: 690px;
 }
+
+
+@media screen and (min-width: 319px) and (max-width: 424px) {
+
+  .intro__title {
+    font-size: 32px;
+    line-height: 35px;
+  }
+
+}

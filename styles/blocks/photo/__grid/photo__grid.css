@@ -1,10 +1,19 @@
 .photo__grid {
   display: grid;
-  grid-template-columns: repeat(4, 284px);/*необходимо сделать адаптивным*/
-  grid-template-rows: repeat(3, 213px);
+  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
+  /*необходимо сделать адаптивным*/
+  grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
   gap: 16px;
   justify-content: center;
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 425px) {
+  .photo__grid {
+    gap: 12px 16px;
+
+  }
+
 }
