@@ -1,7 +1,7 @@
 .places {
   display: grid;
-  grid-template-columns: 984px;
-  grid-template-rows: repeat(5, 660px);
+  /* grid-template-columns: 984px;
+  grid-template-rows: repeat(5, 660px); */
   gap: 80px;
   justify-content: center;
   padding: 92px 0;

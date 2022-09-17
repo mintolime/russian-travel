@@ -1,11 +1,12 @@
-.photo {
-  /* padding: 0 48px; */
-  /* padding-bottom: 92px; */
-  /* box-sizing: border-box; */
-  /* width: 100%; */
+/* .photo {
+  padding: 0 48px;
+  padding-bottom: 92px;
+  box-sizing: border-box;
+  width: 100%;
 }
 
-/* @media screen and (max-width: 1023px) {
+
+@media screen and (max-width: 1023px) {
 
   .photo {
     max-width: 928px;
@@ -19,7 +20,7 @@
 
   .photo {
     max-width: 720px;
-    /* padding: 0 24px; */
+    padding: 0 24px;
   }
 
 }
@@ -30,7 +31,8 @@
 
   .photo {
     max-width: 288px;
-    /* padding: 0 16px; */
+    padding: 0 16px;
   }
 
-} */
+}
+ */
