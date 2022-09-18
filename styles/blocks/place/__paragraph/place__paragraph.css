@@ -6,16 +6,26 @@
   line-height: 29px;
   margin: 0;
   padding-bottom: 26px;
+  grid-column: 2;
 }
 
-.place__paragraph:last-child {
+.place__paragraph:last-of-type {
   padding: 0;
 }
 
-@media screen and (max-width: 767px) and (min-width: 319px) {
+@media screen and (max-width: 767px) {
   .place__paragraph {
+    grid-column: 1;
     font-size: 16px;
     padding-bottom: 25px;
     line-height: 26px;
   }
+}
+
+@media screen and (min-width: 319px) and (max-width: 424px) {
+
+ .place__paragraph {
+    max-width: 90%;
+ }
+
 }

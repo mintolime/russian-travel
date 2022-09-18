@@ -2,15 +2,12 @@
   grid-area: paragraph;
 }
 
+/*переопределить в другую папку*/
+
 .place {
   display: grid;
-  /* grid-template-columns: 1fr 50%;
-  grid-template-rows:repeat(5,minmax(1fr, 440px)); */
-  grid-template-columns: repeat(auto-fit, minmax(1fr, 460px));
-  grid-template-columns: repeat(auto-fit, minmax(1fr, 440px));
-  /* grid-template-columns:460px 484px; */
-  /* grid-template-rows: 152px 460px; */
-  gap: 48px 40px;
+  grid-template-columns: 460px 1fr;
+  grid-gap: 48px 40px;
   grid-template-areas:
     "title website"
     "image  paragraph";
@@ -18,21 +15,22 @@
 
 @media screen and (max-width: 1023px) {
   .place {
-    gap: 48px 32px;
+    grid-template-columns: 440px 1fr;
+    grid-gap: 48px 32px;
   }
 
 }
 
 @media screen and (max-width: 767px) {
   .place {
-    gap: 48px 28px;
+    grid-template-columns: 340px 1fr;
+    grid-gap: 48px 28px;
   }
 }
 
 @media screen and (min-width: 319px) and (max-width: 424px) {
   .place {
-    /* grid-template-columns:460px 484px; */
-  /* grid-template-rows: 152px 460px; */
+    grid-template-columns: 1fr;
     row-gap: 32px;
     grid-template-areas:
       "title"

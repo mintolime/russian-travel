@@ -1,8 +1,5 @@
 .place__title {
   grid-area: title;
-  max-width: 440px;
-  text-align: start;
-  font-style: normal;
   font-weight: 900;
   font-size: 72px;
   line-height: 76px;
@@ -15,6 +12,8 @@
   .place__title {
     font-size: 42px;
     line-height: 46px;
+    padding-left: 24px;
+
   }
 
 }
@@ -23,6 +22,9 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
+    padding-bottom: 16px;
+    padding-left: 0;
+    /* box-sizing: border-box;*/
   }
 
 }

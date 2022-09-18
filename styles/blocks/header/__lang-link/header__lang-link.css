@@ -9,5 +9,15 @@
 
 .link_active_header {
   text-decoration: underline;
-  color: #fff;
+}
+
+.header__lang-link:hover {
+  opacity: .5;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 20px;
+  }
 }

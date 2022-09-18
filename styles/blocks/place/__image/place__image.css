@@ -1,13 +1,10 @@
 .place__image {
   grid-area: image;
-  width: 80%;
-  object-fit: cover;
+  width: 100%;
 }
 
 @media screen and (min-width: 319px) and (max-width: 424px) {
   .photo__image {
-    width: 100%;
-    margin:0 -16px;
-    /* transform: scaleX(1.1); */
+    grid-row: auto;
   }
 }

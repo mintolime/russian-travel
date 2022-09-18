@@ -2,38 +2,37 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-   padding: 92px 100px;
-  /* box-sizing: border-box; */
-  /* max-width: 690px; */
-  /* переопределить*/
+}
 
+@media screen and (max-width: 1279px) {
+  .intro {
+    /* max-width: 690px; */
+    padding-top: 92px;
+    padding-left: 100px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
     /* max-width: 690px; */
-    padding:92px 0;
+    padding-top: 92px;
+    padding-left: 48px;
   }
 }
-
-
 
 @media screen and (max-width: 767px) {
   .intro {
     /* max-width: 720px; */
-    padding: 88px 24px;
+    padding-top: 88px;
+    padding-left: 24px;
   }
 }
-
-
 
 @media screen and (min-width: 319px) and (max-width: 424px) {
-
   .intro {
+    padding-top: 64px;
+    padding-left: 16px;
     /* max-width: 288px; */
-    padding: 64px 16px;
   }
 
 }
-
-
