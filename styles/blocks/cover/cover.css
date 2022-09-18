@@ -2,7 +2,6 @@
   display: grid;
   grid-template-rows: repeat(2, min-content);
   grid-gap: 32px;
-  /* box-sizing: border-box; */
   position: relative;
   margin: 92px auto;
   max-width: 1184px;
