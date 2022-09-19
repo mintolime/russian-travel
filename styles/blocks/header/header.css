@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   flex-direction: row;
-  padding: 28px 48px 48px 56px;
+  padding: 28px 48px 48px;
   margin: 0 auto;
   align-items: center;
 }

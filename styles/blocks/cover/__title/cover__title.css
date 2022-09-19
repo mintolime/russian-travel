@@ -9,7 +9,6 @@
   text-align: center;
   z-index: 1;
   margin: 0;
-  padding-bottom: 32px;
   justify-self: center;
   align-self: end;
 }
@@ -19,6 +18,5 @@
     max-width: 80%;
     font-size: 32px;
     line-height: 35px;
-    padding-bottom: 16px;
   }
 }

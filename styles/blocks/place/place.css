@@ -1,10 +1,31 @@
-.place_content {
+.place__content {
+
   grid-area: paragraph;
+
+  @media screen and (max-width: 1023px) {
+ .place__content {
+
+ }
+
+}
+
+
+@media screen and (max-width: 767px) {
+
+ .place__content {
+
+ }
+
+}
+
+
+
+
 }
 @media screen and (max-width: 319px) {
 
   .place_content {
-    padding-left: 16px;
+
   }
 
 }
@@ -19,8 +40,6 @@
   grid-template-areas:
     "title website"
     "image  paragraph";
-  padding-top: 92px;
-  padding-left: 148px;
 }
 
 @media screen and (max-width: 1023px) {

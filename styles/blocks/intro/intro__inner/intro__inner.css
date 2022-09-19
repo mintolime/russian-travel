@@ -1,6 +1,7 @@
   .intro__inner {
      max-width: 690px;
-     padding:92px 148px;}
+     padding:92px 148px;
+     }
 
 
 @media screen and (max-width: 1023px) {

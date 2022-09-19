@@ -1,11 +1,14 @@
-.lead__item { max-width: 80%;
-     padding: 0 148px;}
+.lead__item {
+  max-width: 80%;
+  padding: 0 148px;
+}
+
 
 
 @media screen and (max-width: 1023px) {
-  .lead__item{
+  .lead__item {
     max-width: 90%;
-     padding: 0 48px;
+    padding: 0 48px;
 
   }
 }

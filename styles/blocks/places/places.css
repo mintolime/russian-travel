@@ -1,32 +1,24 @@
 .places {
   max-width: 984px;
   display: grid;
-  gap: 80px;
+  row-gap: 80px; /* для разделения карточек*/
   box-sizing: border-box;
   margin: 0 auto;
+ padding-top: 92px;
 }
 
-@media screen and (max-width: 1023px) {
-  .places {
-    /* max-width: 928px; */
-
-  }
-}
 
 @media screen and (max-width: 767px) {
   .places {
-    gap: 73px;
+    row-gap: 73px;
     /* max-width: 720px; */
-
   }
 }
 
 @media screen and (max-width: 320px) {
 
   .places {
-    gap: 50px;
+    row-gap: 50px;
     /* max-width: 320px; */
-   
   }
-
 }
