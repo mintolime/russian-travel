@@ -3,16 +3,13 @@
   display: grid;
   gap: 80px;
   box-sizing: border-box;
-  padding-top: 92px;
-  padding-right: 100px;
   margin: 0 auto;
 }
 
 @media screen and (max-width: 1023px) {
   .places {
     /* max-width: 928px; */
-    padding-top: 92px;
-    padding-right: 0;
+
   }
 }
 
@@ -20,18 +17,16 @@
   .places {
     gap: 73px;
     /* max-width: 720px; */
-    padding-top: 88px;
-    padding-right: 0;
+
   }
 }
 
-@media screen and (min-width: 319px) and (max-width: 424px) {
+@media screen and (max-width: 320px) {
 
   .places {
     gap: 50px;
     /* max-width: 320px; */
-    padding-top: 64px;
-    padding-right: 0;
+   
   }
 
 }

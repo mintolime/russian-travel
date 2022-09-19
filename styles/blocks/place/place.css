@@ -1,6 +1,14 @@
 .place_content {
   grid-area: paragraph;
 }
+@media screen and (max-width: 319px) {
+
+  .place_content {
+    padding-left: 16px;
+  }
+
+}
+
 
 /*переопределить в другую папку*/
 
@@ -11,18 +19,24 @@
   grid-template-areas:
     "title website"
     "image  paragraph";
+  padding-top: 92px;
+  padding-left: 148px;
 }
 
 @media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: 440px 1fr;
     grid-gap: 48px 32px;
+    padding-top: 92px;
+    padding-left: 48px;
   }
 
 }
 
 @media screen and (max-width: 767px) {
   .place {
+    padding-top: 88px;
+    padding-left: 24px;
     grid-template-columns: 340px 1fr;
     grid-gap: 48px 28px;
   }
@@ -30,6 +44,8 @@
 
 @media screen and (min-width: 319px) and (max-width: 424px) {
   .place {
+    padding-top: 64px;
+    padding-left: 0;
     grid-template-columns: 1fr;
     row-gap: 32px;
     grid-template-areas:

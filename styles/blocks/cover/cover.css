@@ -5,6 +5,7 @@
   position: relative;
   margin: 92px auto;
   max-width: 1184px;
+  box-sizing: border-box;
 }
 
 .cover::before {
@@ -25,6 +26,7 @@
 
 @media screen and (max-width: 767px) {
   .cover {
+    margin: 65px auto;
     gap: 16px;
   }
 }
