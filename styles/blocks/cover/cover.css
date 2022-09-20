@@ -24,6 +24,12 @@
   opacity: .8;
 }
 
+@media screen and (max-width: 1023px) {
+  .cover {
+    max-width: 80%;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .cover {
     margin: 65px auto;

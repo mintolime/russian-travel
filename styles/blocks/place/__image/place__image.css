@@ -1,16 +1,21 @@
 .place__image {
   grid-area: image;
-  width: 80%;
+  width: 100%;
   object-fit: cover;
 }
-@media screen and (max-width: 1279px) {
-  .lead__image {
-    width: 80%;
+
+@media screen and (max-width: 1279.98px) {
+  .place__image {
+    width: 100%;
   }
 }
-
-@media screen and (min-width: 319px) and (max-width: 424px) {
-  .photo__image {
-    grid-row: auto;
+@media screen and (max-width: 1023.98px) {
+  .place__image {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 319.98px) and (max-width: 424.98px) {
+  .place__image {
+    grid-row: 460px;
   }
 }

@@ -1,5 +1,5 @@
 .places {
-  max-width: 984px;
+  /* max-width: 984px; */
   display: grid;
   row-gap: 80px;
   /* для разделения карточек*/

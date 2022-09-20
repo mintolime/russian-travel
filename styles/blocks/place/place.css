@@ -11,8 +11,6 @@
   .place {
     grid-template-columns: repeat(440px, auto-fit);
     grid-gap: 48px 32px;
-    padding-left: 48px;
-    padding-right: 48px;
   }
 }
 
