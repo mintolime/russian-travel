@@ -1,70 +1,34 @@
-.place__content {
-
-  grid-area: paragraph;
-
-  @media screen and (max-width: 1023px) {
- .place__content {
-
- }
-
-}
-
-
-@media screen and (max-width: 767px) {
-
- .place__content {
-
- }
-
-}
-
-
-
-
-}
-@media screen and (max-width: 319px) {
-
-  .place_content {
-
-  }
-
-}
-
-
-/*переопределить в другую папку*/
-
 .place {
   display: grid;
-  grid-template-columns: 460px 1fr;
   grid-gap: 48px 40px;
+  grid-template-columns: repeat(460px, auto-fit);
   grid-template-areas:
     "title website"
     "image  paragraph";
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1023.98px) {
   .place {
-    grid-template-columns: 440px 1fr;
+    grid-template-columns: repeat(440px, auto-fit);
     grid-gap: 48px 32px;
-    padding-top: 92px;
     padding-left: 48px;
+    padding-right: 48px;
   }
-
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 767.98px) {
   .place {
-    padding-top: 88px;
     padding-left: 24px;
-    grid-template-columns: 340px 1fr;
+    padding-right: 24px;
+    grid-template-columns: repeat(340px, auto-fit);
     grid-gap: 48px 28px;
   }
 }
 
-@media screen and (min-width: 319px) and (max-width: 424px) {
+
+@media screen and (max-width: 424.98px) and (min-width: 319.98px) {
   .place {
-    padding-top: 64px;
-    padding-left: 0;
+    padding: 0;
     grid-template-columns: 1fr;
     row-gap: 32px;
     grid-template-areas:

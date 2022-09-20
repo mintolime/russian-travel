@@ -1,7 +1,6 @@
 .photo__grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  /*необходимо сделать адаптивным*/
   grid-template-rows: repeat(auto-fit, minmax(213px, 1fr));
   grid-gap: 16px;
   justify-content: center;
@@ -9,15 +8,17 @@
   margin: 0;
   padding: 0 48px;
 }
+
 @media screen and (max-width: 1023px) {
- .photo__grid {
-  grid-gap: 14px;
- }
+  .photo__grid {
+    grid-gap: 14px;
+  }
 }
+
 @media screen and (max-width: 767px) {
- .photo__grid {
-   padding: 0 24px;
- }
+  .photo__grid {
+    padding: 0 24px;
+  }
 }
 
 @media screen and (max-width: 319px) {

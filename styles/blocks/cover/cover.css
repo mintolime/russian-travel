@@ -1,13 +1,13 @@
 .cover {
+  max-width: 1184px;
   display: grid;
   grid-template-rows: repeat(2, min-content);
   grid-gap: 32px;
   position: relative;
   margin: 92px auto;
-  max-width: 1184px;
-  box-sizing: border-box;
 }
 
+/*для затемнения*/
 .cover::before {
   content: '';
   background: #2A2C2F;

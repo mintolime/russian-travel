@@ -2,15 +2,25 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width: 1184px;
-  min-height: 18px;
   padding: 0 48px 24px;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer {
+    max-width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer {
+    max-width: 80%;
+  }
+}
+
 @media screen and (min-width: 319px) and (max-width: 424px) {
   .footer {
-    display: flex;
     flex-direction: column;
     row-gap: 48px;
-    padding:0 16px 24px 24px;
+    padding: 0 16px 24px 24px;
   }
 }

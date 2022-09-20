@@ -1,31 +1,38 @@
 .place__paragraph {
+  grid-area: paragraph;
   text-align: start;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 29px;
+  line-height: 1.63;
   margin: 0;
   padding-bottom: 26px;
-  grid-column: 2;
 }
 
 .place__paragraph:last-of-type {
   padding: 0;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1023px) {
   .place__paragraph {
-    grid-column: 1;
     font-size: 16px;
     padding-bottom: 25px;
-    line-height: 26px;
+    line-height: 1.62;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  .place__paragraph {
+    font-size: 16px;
+    padding-bottom: 25px;
+    line-height: 1.62;
   }
 }
 
+
 @media screen and (min-width: 319px) and (max-width: 424px) {
-
- .place__paragraph {
-    max-width: 90%;
- }
-
+  .place__paragraph {
+    margin: 0 16px 25px;
+  }
 }

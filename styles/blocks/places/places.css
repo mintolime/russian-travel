@@ -1,24 +1,32 @@
 .places {
   max-width: 984px;
   display: grid;
-  row-gap: 80px; /* для разделения карточек*/
+  row-gap: 80px;
+  /* для разделения карточек*/
   box-sizing: border-box;
   margin: 0 auto;
- padding-top: 92px;
+  padding-top: 92px;
 }
 
-
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1024px) {
   .places {
-    row-gap: 73px;
-    /* max-width: 720px; */
+    max-width: 90%;
   }
 }
 
-@media screen and (max-width: 320px) {
-
+@media screen and (max-width: 767px) {
   .places {
+    max-width: 94%;
+    row-gap: 73px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (min-width: 319px) and (max-width: 424px) {
+  .places {
+    max-width: 100%;
     row-gap: 50px;
-    /* max-width: 320px; */
+    padding-top:64px;
+    margin: 0;
   }
 }

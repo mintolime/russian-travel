@@ -1,9 +1,7 @@
 .lead__item {
-  max-width: 80%;
+  max-width: 100%;
   padding: 0 148px;
 }
-
-
 
 @media screen and (max-width: 1023px) {
   .lead__item {
