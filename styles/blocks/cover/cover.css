@@ -26,13 +26,18 @@
 
 @media screen and (max-width: 1023px) {
   .cover {
-    max-width: 80%;
+    max-width: 100%;
   }
 }
 
 @media screen and (max-width: 767px) {
   .cover {
     margin: 65px auto;
-    gap: 16px;
+  }
+}
+
+@media screen and (max-width: 319px) {
+  .cover {
+    margin:0;
   }
 }

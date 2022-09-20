@@ -1,10 +1,11 @@
 @media screen and (max-width: 1278.98px) {
   .lead__item {
-  max-width: 100%;
-  padding: 0 148px
+    max-width: 100%;
+    padding: 0 148px;
 
   }
 }
+
 @media screen and (max-width: 1023.98px) {
   .lead__item {
     max-width: 90%;
@@ -21,9 +22,7 @@
 }
 
 @media screen and (min-width: 319.98px) and (max-width: 424.98px) {
-
   .lead__item {
     padding: 0;
   }
-
 }
