@@ -8,7 +8,7 @@
   transition: .2s ease-in-out;
 }
 
-.link__lang-link_active {
+.header__lang-link_active {
   text-decoration: underline;
 }
 

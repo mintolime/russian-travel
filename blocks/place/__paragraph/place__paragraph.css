@@ -22,17 +22,19 @@
 
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .place__paragraph {
     font-size: 16px;
     padding-bottom: 25px;
     line-height: 1.62;
   }
-}
+} */
 
 
 @media screen and (min-width: 319px) and (max-width: 424px) {
   .place__paragraph {
-    margin: 0 16px 25px;
+    /* margin: 0 16px 25px; */
+     padding-left: 16px;
+    padding-right: 16px;
   }
 }

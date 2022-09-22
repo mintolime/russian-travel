@@ -7,23 +7,6 @@
   margin: 92px auto;
 }
 
-/*для затемнения*/
-.cover::before {
-  content: '';
-  background: #2A2C2F;
-  transition: .3s ease;
-  opacity: .3;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-.cover:hover::before {
-  opacity: .8;
-}
-
 @media screen and (max-width: 1023px) {
   .cover {
     max-width: 100%;

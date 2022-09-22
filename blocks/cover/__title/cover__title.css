@@ -7,10 +7,11 @@
   grid-column: 1;
   grid-row: 1;
   text-align: center;
-  z-index: 1;
+  z-index: 3;
   margin: 0;
   justify-self: center;
   align-self: end;
+  color: #fff;
 }
 
 @media screen and (max-width: 767px) {

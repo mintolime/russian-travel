@@ -9,7 +9,9 @@
 @media screen and (max-width: 1023.98px) {
   .lead__item {
     max-width: 90%;
-    padding: 0 48px;
+    /* padding: 0 48px; */
+    padding-left: 48px;
+    padding-right: 48px;
 
   }
 }
@@ -21,8 +23,8 @@
   }
 }
 
-@media screen and (min-width: 319.98px) and (max-width: 424.98px) {
+/* @media screen and (min-width: 319.98px) and (max-width: 424.98px) {
   .lead__item {
     padding: 0;
   }
-}
+} */
