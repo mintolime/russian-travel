@@ -5,6 +5,7 @@
 
 @media screen and (max-width: 767px) {
   .place__image {
+    width: 99%;
     grid-row: auto;
   }
 }

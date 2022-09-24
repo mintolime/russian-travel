@@ -1,4 +1,5 @@
 .header__lang-link {
+  display: block;
   color: #fff;
   text-decoration: none;
   font-style: normal;
@@ -16,9 +17,10 @@
   opacity: .5;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .header__lang-link {
     font-size: 18px;
-    line-height: 1.11;
+    line-height: 1.33;
   }
 }
+

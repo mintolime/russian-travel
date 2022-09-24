@@ -12,20 +12,22 @@
   justify-self: center;
   align-self: end;
   color: #fff;
+  padding-bottom: 35px;
 }
 
 @media screen and (max-width: 767px) {
   .cover__title {
-    font-size: 4rem;
-    line-height: 1;
-    max-width: 90%;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 1.09;
+    padding-bottom: 16px;
   }
 }
 
-@media screen and (max-width: 320px) {
+/* @media screen and (min-width: 319px) and (max-width: 424px) {
   .cover__title {
     max-width: 80%;
     font-size: 32px;
     line-height: 1.1;
   }
-}
+} */

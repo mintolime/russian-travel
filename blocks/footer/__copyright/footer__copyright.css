@@ -6,10 +6,10 @@
   margin: 0;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .cover__title {
     font-size: 2rem;
     line-height: 1;
     max-width: 90%;
   }
-}
+} */

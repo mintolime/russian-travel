@@ -17,16 +17,16 @@
 
 @media screen and (max-width: 767px) {
   .photo__grid {
+    grid-gap: 15px;
     /* padding: 0 24px; */
      padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media screen and (max-width: 319px) {
+@media screen and (min-width: 319px) and (max-width: 424px)  {
   .photo__grid {
-    column-gap: 12px;
-    /* padding: 0 16px; */
+     grid-gap: 10px;
      padding-left: 16px;
     padding-right: 16px;
   }

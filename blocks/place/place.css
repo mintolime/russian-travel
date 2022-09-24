@@ -5,30 +5,32 @@
   grid-template-areas:
     "title website"
     "image  paragraph";
+    padding: 0 148px;
 }
 
-@media screen and (max-width: 1023.98px) {
+@media screen and (max-width: 1023px) {
   .place {
     grid-template-columns: repeat(440px, auto-fit);
     grid-gap: 48px 32px;
+    padding: 0 48px;
   }
 }
 
-@media screen and (max-width: 767.98px) {
+@media screen and (max-width: 767px) {
   .place {
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 36px 0;
     grid-template-columns: repeat(340px, auto-fit);
     grid-gap: 48px 28px;
   }
 }
 
 
-@media screen and (max-width: 424.98px) and (min-width: 319.98px) {
+@media screen and (max-width: 424px) and (min-width: 319px) {
   .place {
     padding: 0;
     grid-template-columns: 1fr;
-    row-gap: 32px;
+    /* grid-template-rows: minmax(1fr, 288px); */
+    row-gap: 30px;
     grid-template-areas:
       "title"
       "website"

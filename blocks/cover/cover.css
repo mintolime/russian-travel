@@ -4,7 +4,7 @@
   grid-template-rows: repeat(2, min-content);
   grid-gap: 32px;
   position: relative;
-  margin: 92px auto;
+  margin: 90px auto;
 }
 
 @media screen and (max-width: 1023px) {
@@ -15,12 +15,12 @@
 
 @media screen and (max-width: 767px) {
   .cover {
-    margin: 65px auto;
+    margin: 60px auto;
   }
 }
 
-@media screen and (max-width: 319px) {
+/* @media screen and (max-width: 319px) {
   .cover {
     margin:0;
   }
-}
+} */
