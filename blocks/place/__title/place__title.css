@@ -16,8 +16,6 @@
 
 @media screen and (max-width: 767px) {
   .place__title {
-    /* max-width: 310px; */
-    /*для выпавнивания заголовка*/
     font-size: 42px;
     line-height: 1.1;
     letter-spacing: 0.8px;
@@ -27,8 +25,6 @@
 @media screen and (min-width: 319px) and (max-width: 424px) {
   .place__title {
     font-size: 32px;
-    /* line-height: 1.09; */
     padding-left: 16px;
   }
-
 }

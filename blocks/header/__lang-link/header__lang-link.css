@@ -9,10 +9,6 @@
   transition: .2s ease-in-out;
 }
 
-/* .header__lang-link_active {
-  text-decoration: underline;
-} */
-
 .header__lang-link:hover {
   opacity: .5;
 }
@@ -23,4 +19,3 @@
     line-height: 1.33;
   }
 }
-

@@ -1,11 +1,9 @@
 .places {
-  /* max-width: 984px; */
   display: grid;
   row-gap: 80px;
   /* для разделения карточек*/
   box-sizing: border-box;
   margin: 0 auto;
-  /* padding-top: 90px; */
 }
 
 @media screen and (max-width: 1024px) {
@@ -16,16 +14,8 @@
 
 @media screen and (max-width: 767px) {
   .places {
-    /* max-width: 720px; */
     row-gap: 73px;
-    /* padding-top: 88px; */
     margin: 0;
   }
 }
 
-@media screen and (min-width: 319px) and (max-width: 424px) {
-  .places {
-    max-width: 100%;
-    /* padding-top: 55px; */
-  }
-}
