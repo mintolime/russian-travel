@@ -8,19 +8,20 @@
   text-align: center;
   align-self: center;
   margin: 0;
-  padding-bottom: 30px;
+  /* padding-bottom: 32px; */
 }
 
-@media screen and (max-width: 1024px) {
+/* @media screen and (max-width: 1024px) {
   .lead__title {
-    padding: 0 24px 32px 24px;
+    padding: 0 24px 32px 24px; 
   }
-}
+} */
 
 @media screen and (max-width: 768.98px) {
   .lead__title {
-    max-width: 720px;
-    padding: 0 16px 16px 16px;
+    font-size: 8em;
+    /* max-width: 720px; */
+    /* padding: 0 16px 16px 16px; */
   }
 }
 
@@ -28,6 +29,6 @@
   .lead__title {
     font-size: 40px;
     /* line-height: 44px; */
-    padding-bottom: 18px;
+    /* padding-bottom: 18px; */
   }
 }

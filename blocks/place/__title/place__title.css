@@ -7,17 +7,17 @@
   margin: 0;
   align-self: center;
 }
+
 @media screen and (max-width: 1023px) {
-
- .place__title {
-  max-width: 90%;
- }
-
+  .place__title {
+    max-width: 440px;
+  }
 }
 
 @media screen and (max-width: 767px) {
   .place__title {
-    max-width: 310px;/*для выпавнивания заголовка*/
+    max-width: 310px;
+    /*для выпавнивания заголовка*/
     font-size: 42px;
     line-height: 1.1;
   }

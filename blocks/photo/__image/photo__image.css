@@ -1,11 +1,11 @@
 .photo__image {
   width: 100%;
-  grid-row: 2/6;
+  object-fit: cover;
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .place__image {
     width: 99%;
     grid-row: auto;
   }
-}
+} */

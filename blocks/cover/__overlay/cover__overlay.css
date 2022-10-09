@@ -1,7 +1,0 @@
-.cover__overlay {
-  background-image: url(../../../../images/cover-trains.jpg);
-  background-size: cover;
-  background-position: center;
-  grid-column: 1/2;
-  grid-row: 1/3;
-}

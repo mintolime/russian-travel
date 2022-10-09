@@ -1,26 +1,29 @@
 .cover {
-  max-width: 1184px;
+  width: 100%;
   display: grid;
   grid-template-rows: repeat(2, min-content);
   grid-gap: 32px;
   position: relative;
-  margin: 90px auto;
+  /* margin: 90px auto; */
+  padding: 0 48px;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1023px) {
   .cover {
     max-width: 100%;
+    padding: 0;
   }
 }
 
-@media screen and (max-width: 767px) {
+/* @media screen and (max-width: 767px) {
   .cover {
-    margin: 60px auto;
+   padding: 0;
   }
-}
+} 
 
-/* @media screen and (max-width: 319px) {
+@media screen and (max-width: 319px) {
   .cover {
-    margin:0;
+    padding: 0;
   }
 } */
