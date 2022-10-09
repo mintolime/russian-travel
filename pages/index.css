@@ -44,9 +44,9 @@
 @import url(../blocks/footer/__item/footer__item.css);
 @import url(../blocks/footer/__link/footer__link.css);
 
-* {
+/* * {
   border: 2px rgb(255, 208, 0) solid;
-} 
+}  */
 
 .main {
   display: grid;
