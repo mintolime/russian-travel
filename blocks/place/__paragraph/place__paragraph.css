@@ -1,37 +1,37 @@
 .place__paragraph {
   grid-area: paragraph;
-  max-width: 484px;
+  /* max-width: 484px; */
   text-align: start;
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1.7;
+  line-height: 163%;
   margin: 0;
   padding-bottom: 26px;
+  box-sizing: border-box;
+  /* white-space: pre-line; */
 }
 
 .place__paragraph:last-of-type {
   padding-bottom: 0;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .place__paragraph {
     font-size: 16px;
     padding-bottom: 25px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .place__paragraph {
     padding-bottom: 25px;
-    line-height: 1.62;
   }
 }
 
-@media screen and (min-width: 319px) and (max-width: 424px) {
+@media screen and (max-width: 320px) {
   .place__paragraph {
     padding-left: 16px;
     padding-right: 16px;
-    padding-bottom: 20px;
   }
 }
