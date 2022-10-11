@@ -9,13 +9,13 @@
   padding: 0 48px;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .photo__grid {
     grid-gap: 14px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .photo__grid {
     grid-gap: 16px;
     padding-left: 24px;
@@ -23,7 +23,7 @@
   }
 }
 
-@media screen and (min-width: 319px) and (max-width: 424px) {
+@media screen and (max-width: 320px) {
   .photo__grid {
     grid-gap: 10px;
     padding-left: 16px;

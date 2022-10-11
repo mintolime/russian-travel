@@ -4,18 +4,27 @@
   /* для разделения карточек*/
   box-sizing: border-box;
   margin: 0 auto;
+  padding: 0 148px;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 928px;
+    padding: 0 48px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
   .places {
+    padding-left: 24px;
+    padding-right: 24px;
     row-gap: 73px;
-    margin: 0;
   }
 }
 
+@media screen and (max-width: 320px) {
+  .places {
+    row-gap: 54px;
+    margin: 0;
+    padding: 0;
+  }
+}

@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .cover {
     max-width: 100%;
     padding: 0;

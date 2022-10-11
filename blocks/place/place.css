@@ -1,40 +1,28 @@
 .place {
   display: grid;
   grid-gap: 48px 40px;
-  grid-template-columns: repeat(460px, auto-fit);
+  grid-template-columns: 460px 1fr;
   grid-template-areas:
     "title website"
     "image  paragraph";
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: fit-content(440px) minmax(auto, 456px);
+    grid-template-columns: 440px 1fr;
     grid-gap: 48px 32px;
   }
 }
 
-/*стили,чтобы карточки не прилипали к краям*/
-@media screen and (max-width:1024px) and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .place {
-    padding-left: 15px;
-    padding-right: 15px;
+    grid-template-columns: 340px 1fr;
+    grid-gap: 48px 28px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place {
-    padding-left: 24px;
-    padding-right: 24px;
-    grid-template-columns: fit-content(340px) minmax(auto, 352px);
-    grid-gap: 48px 28px;
-  }
-}
-
-/*изменена максимальная ширина,был небольшой скрол */
-@media screen and (min-width: 319px) and (max-width: 460px) {
-  .place {
-    padding: 0;
     grid-template-columns: 1fr;
     row-gap: 30px;
     grid-template-areas:
