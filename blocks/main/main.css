@@ -5,6 +5,7 @@
   margin: 56px 0 92px;
   /* внеш. отступ для основ. контента*/
 }
+
 @media screen and (max-width: 1024px) {
   .main {
     margin-top: 48px;
