@@ -13,7 +13,6 @@
 
 @media screen and (max-width: 768px) {
   .main {
-    margin-top: 48px;
     margin-bottom: 88px;
     grid-row-gap: 88px;
   }

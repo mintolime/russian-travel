@@ -1,5 +1,4 @@
 .intro {
-  max-width: 100vw;/*td нужно ли это свойство?*/
   display: flex;
   flex-direction: column;
   justify-content: center;
