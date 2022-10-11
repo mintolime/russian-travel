@@ -1,6 +1,5 @@
 .place__paragraph {
   grid-area: paragraph;
-  /* max-width: 484px; */
   text-align: start;
   font-style: normal;
   font-weight: 400;
@@ -9,7 +8,6 @@
   margin: 0;
   padding-bottom: 26px;
   box-sizing: border-box;
-  /* white-space: pre-line; */
 }
 
 .place__paragraph:last-of-type {
@@ -18,13 +16,13 @@
 
 @media screen and (max-width: 1024px) {
   .place__paragraph {
-    font-size: 16px;
-    padding-bottom: 25px;
+    padding-bottom: 27px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__paragraph {
+    font-size: 16px;
     padding-bottom: 25px;
   }
 }
