@@ -1,4 +1,5 @@
 .intro {
+  max-width: 984px;
   display: flex;
   flex-direction: column;
   justify-content: center;
