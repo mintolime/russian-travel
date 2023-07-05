@@ -23,7 +23,6 @@
 
 - HTML
 - CSS (Flexbox, Grid)
-- JavaScript
 
 
 ## Run Locally
